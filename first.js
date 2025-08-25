@@ -5,7 +5,7 @@ let btn = document.querySelector("#btn");
 let chatContainer = document.querySelector(".chat-container");
 let userMessage = null;
 
-let Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=apikey";
+let Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAQZvApZYeQE4DAVjxsS3KXCfKkNPYDc9U";
 // // Function to create chat boxes
 function createChatBox(html, className) {
     let div = document.createElement("div");
@@ -91,6 +91,7 @@ btn.addEventListener("click", ()=>{
     prompt.value=""
     setTimeout(showLoading,500)
 })
+
 
 
 
